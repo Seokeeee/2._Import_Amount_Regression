@@ -1,6 +1,6 @@
 # Project : Import Amount Regression
 
-<img width="80%" src="/images/01_Intro.png"/>
+<img width="80%" src="/images/01_Intro.jpg"/>
 
 ## 1. Introduction
 
@@ -343,7 +343,7 @@ Tuner = kt.RandomSearch(
 
 위의 내용을 토대로 총 50번의 랜덤 탐색을 진행하였으며, 탐색 과정 중 가장 성능이 좋은 10개의 최적화 조합 또는 가설 집합(Hypothesis Set)을  도출하여 다시 한 번 비교 평가를 진행하였습니다.
 
-<img width="80%" src="/images/12_Hypothesis_05.png"/>
+<img width="80%" src="/images/12_Hypothesis_05.PNG"/>
 
 이 결과로 9번째 가설이 MAE, MSE, RMSE를 종합적으로 고려해보았을 때, 가장 좋은 성능을 보였습니다.
 
