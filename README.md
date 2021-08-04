@@ -496,7 +496,7 @@ TRADE_HSCD_COUNTRYCD는 "해당 연도 해당 국가의 해당 품목 수입금�
 Baseline_06 모델 개요
 
 ```python
-Baseline_01 = tf.keras.Sequential([
+Baseline_06 = tf.keras.Sequential([
     tf.keras.layers.Dense(96, activation = 'sigmoid', input_shape=Data_Shape),
     tf.keras.layers.Dense(1)
 ])
